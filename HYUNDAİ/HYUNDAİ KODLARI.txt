@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Hyundai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<i class=" fa-solid fa-magnifying-glass"></i>">
+
+    <style>
+        .slaytg {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+
+        }
+
+        .kutu1 {
+            background-color: white;
+
+            height: 20%;
+            padding-left: 12%;
+            padding-top: 2%;
+            display: inline-block;
+            margin-left: -9%;
+        }
+
+        .kutu2 {
+            display: inline-block;
+            margin-right: 4%;
+            margin-left: -2px;
+
+        }
+
+        .kutu3 {
+            display: inline-block;
+            margin-right: 3%;
+            margin-top: -2%;
+            margin-left: 55px;
+            width: 5%;
+
+
+        }
+
+        .kutu4 {
+            display: inline-block;
+            margin-right: 3%;
+        }
+
+        .kutu5 {
+            display: inline-block;
+            margin-right: 3%;
+        }
+
+        .kutu6 {
+            display: inline-block;
+            margin-right: 3%;
+        }
+
+        .kutu7 {
+            display: inline-block;
+            margin-right: 3%;
+        }
+
+        .kutu8 {
+            display: inline-block;
+        }
+
+        .cerceve {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .galeri {
+            position: relative;
+            width: 500%;
+            left: 0;
+            animation: 20s slayt infinite;
+            opacity: 10;
+
+        }
+
+        .galeri img {
+            width: 20%;
+            float: left;
+        }
+
+        @keyframes slayt {
+            0% {
+                left: 0%;
+            }
+
+            15% {
+                left: 0%;
+            }
+
+            20% {
+                left: -100%;
+            }
+
+            35% {
+                left: -100%;
+            }
+
+            40% {
+                left: -200%;
+            }
+
+            55% {
+                left: -200%;
+            }
+
+            60% {
+                left: -300%;
+            }
+
+            75% {
+                left: -300%;
+            }
+
+            80% {
+                left: -400%;
+            }
+
+            95% {
+                left: -400%;
+            }
+        }
+
+        .kutu10 {
+            display: inline-block;
+            width: 19%;
+            height: 5%;
+            background-color: white;
+            /* margin-top: 20%; */
+            margin-left: 13%;
+
+        }
+
+        .kutu11 {
+            display: inline-block;
+            width: 19%;
+            height: 5%;
+            background-color: white;
+            /* margin-top: 39%; */
+            margin-left: -3%;
+        }
+
+        .kutu12 {
+            display: inline-block;
+            width: 19%;
+            height: 5%;
+            background-color: white;
+            /* margin-top: 39%; */
+            margin-left: 2%;
+
+        }
+
+        .kutu13 {
+            display: inline-block;
+            width: 19%;
+            height: 5%;
+            background-color: white;
+            margin-left: -2.5%;
+
+
+        }
+
+        .Mod-buton {
+            color: black;
+            text-decoration: none;
+
+
+        }
+
+        .Elek-buton {
+            color: black;
+            text-decoration: none;
+
+        }
+
+        .sat-buton {
+            color: black;
+            text-decoration: none;
+        }
+
+        .sonra-buton {
+            color: black;
+            text-decoration: none;
+        }
+
+        .hak-buton {
+            color: black;
+            text-decoration: none;
+        }
+
+        .yet-buton {
+            color: black;
+            text-decoration: none;
+        }
+
+        .fiy-buton {
+            width: 4%;
+            color: black;
+            text-decoration: none;
+            padding-left: 15%;
+
+        }
+
+        .özeltek-buton {
+            width: 4%;
+            color: black;
+            text-decoration: none;
+            padding-left: 15%;
+        }
+
+        .test-buton {
+            width: 4%;
+            color: black;
+            text-decoration: none;
+            padding-left: 15%;
+        }
+
+        .onlinerezer-buton {
+            width: 4%;
+            color: black;
+            text-decoration: none;
+            padding-left: 15%;
+        }
+
+        .kutu14 {
+            background-color: rgb(33, 32, 32);
+            backface-visibility: 15%;
+            width: 88%;
+            height: 40vb;
+            padding-left: 12%;
+            margin-top: 15%;
+            padding-top: 4%;
+            display: inline-block;
+
+        }
+
+        .fin-model {
+            color: white;
+            display: inline-block;
+            margin-left: 3%;
+            align-items: center;
+            text-decoration: none;
+            ;
+        }
+
+        .ikon1 {
+            width: 1%;
+            height: 1%;
+            display: inline-block;
+            margin-left: 3.2%;
+        }
+
+        .ikon2 {
+            width: 1%;
+            height: 1%;
+            display: inline-block;
+            margin-left: 2.3%;
+        }
+
+        .ikon3 {
+            width: 1%;
+            height: 1%;
+            display: inline-block;
+            margin-left: 2%;
+        }
+
+        .ikon4 {
+            position: absolute;
+            top: 4%;
+            left: 88%;
+            transform: translateY(-27%, -27%);
+            background-color: white;
+            height: 25px;
+            border-radius: 40px;
+            padding: 9px;
+            margin-left: 3%;
+        }
+
+        .ikon4:hover>.arama-metini {
+            width: 100px;
+            padding: 0 6px;
+        }
+
+        .ikon4:hover>.arama-butonu {
+            background-color: white;
+            color: black;
+        }
+
+        .arama-butonu {
+            color: black;
+            float: right;
+            width: 29px;
+            height: 29px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.4s;
+            color: black;
+            cursor: pointer;
+        }
+
+        .arama-butonu>i {
+            font-size: 30px;
+        }
+
+        .arama-metini {
+            border: none;
+            background: none;
+            outline: none;
+            float: left;
+            padding: 0;
+            color: gray;
+            font-size: 16px;
+            transition: 0.4s;
+            line-height: 40px;
+            width: 0px;
+            font-weight: bold;
+        }
+
+        .alt-model1 {
+            color: white;
+            display: inline-block;
+            margin-left: 2%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model2 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model3 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model4 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model5 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model6 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model7 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model8 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model9 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model10 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .alt-model11 {
+            color: white;
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+            text-decoration: none;
+        }
+
+        .facebook {
+            display: inline-block;
+            margin-left: 11%;
+            padding-top: 2%;
+        }
+
+        .youtube {
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+        }
+
+        .x {
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+        }
+
+        .linkedin {
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+        }
+
+        .instagram {
+            display: inline-block;
+            margin-left: 1%;
+            padding-top: 2%;
+        }
+
+        .çizgi {
+            color: grey;
+            margin-left: 6%;
+        }
+
+        .kutux {
+            width: 100%;
+            height: 50%;
+        }
+
+        .kutux1 {
+            margin-left: 45%;
+            margin-top: 6%;
+            font-size: x-large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .küçükres1 {
+            width: 340px;
+            height: 200px;
+            background-color: white;
+            margin-left: 0.75%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+
+        .küçükres2 {
+            width: 340px;
+            height: 200px;
+            background-color: white;
+            margin-left: 2%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+
+        .küçükres3 {
+            width: 340px;
+            height: 200px;
+            background-color: white;
+            margin-left: 2%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+
+        .küçükres4 {
+            width: 340px;
+            height: 200px;
+            background-color: white;
+            margin-left: 2%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+
+        .küçükres5 {
+            width: 340px;
+            height: 200px;
+            background-color: white;
+            margin-left: 0.75%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            margin-top: 3%;
+        }
+
+        .küçükres6 {
+            width: 340px;
+            height: 200px;
+            background-color: white;
+            margin-left: 2%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            margin-top: 3%;
+        }
+
+        .küçükres7 {
+            width: 340px;
+            height: 200px;
+            background-color: white;
+            margin-left: 2%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            margin-top: 3%;
+        }
+
+        .küçükres8 {
+            width: 340px;
+            height: 200px;
+            background-color: white;
+            margin-left: 2%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            margin-top: 3%;
+        }
+
+        .müzik {
+            color: black;
+            padding-left: 345px;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+
+<body style="center">
+    <span class="kutu1">
+        <a href="https://www.hyundai.com/tr/tr"><img src="C:\Users\BURAK\Desktop\HYUNDAİ\logox.jpg"></a>
+    </span>
+    <span>
+        <div class="kutu3">
+            <h3><strong>
+                    <a href="https://www.hyundai.com/tr/tr/arac-modelleri/araba-modelleri" class="Mod-buton"
+                        target="_self">Modeller</a>
+                </strong>
+            </h3>
+
+        </div>
+        <div class="kutu4">
+            <h3>
+                <strong>
+                    <a href="https://www.hyundai.com/tr/tr/elektrifikasyon-teknolojisi" class="Elek-buton"
+                        target="_self">Elektrifikasyon</a>
+                </strong>
+            </h3>
+        </div>
+        <div class="kutu5">
+            <h3>
+                <strong>
+                    <a href="https://www.hyundai.com/tr/tr/arac-satis" class="sat-buton" target="_self">Satış</a>
+                </strong>
+            </h3>
+        </div>
+        <div class="kutu6">
+            <h3>
+                <strong>
+                    <a href="https://www.hyundai.com/tr/tr/satis-sonrasi/arac-satis-sonrasi" class="sonra-buton"
+                        target="_self">Satış Sonrası</a>
+                </strong>
+            </h3>
+        </div>
+        <div class="kutu7">
+            <h3>
+                <strong>
+                    <a href="https://www.hyundai.com/tr/tr/hakkimizda" class="hak-buton" target="_self">Hakkımızda</a>
+                </strong>
+            </h3>
+        </div>
+        <div class=" kutu8">
+            <h3>
+                <strong>
+                    <a href="https://www.hyundai.com/tr/tr/yetkili-satici/yetkili-satici-bul" class="yet-buton"
+                        target="_self">Yetkili Satıcı ve Servis</a>
+                </strong>
+            </h3>
+
+        </div>
+        <span class="ikon1">
+            <a href="https://vision.social-hyundai.com/vision-dergisi/page/1" class="ikon1" target="_self"><img
+                    src="C:\Users\BURAK\Desktop\HYUNDAİ\kitapçık.png"></a>
+        </span>
+        <span class="ikon2">
+            <a href="https://online.hyundai.com.tr/" class="ikon2" target="_self"> <img
+                    src="C:\Users\BURAK\Desktop\HYUNDAİ\tik.png"></a>
+        </span>
+        <span class="ikon3">
+
+            <a href="https://www.hyundai.com/tr/tr/satis-sonrasi/parts-and-accessories/hyundai-marka-koleksiyonu"
+                class="ikon3" target="_self"><img src="C:\Users\BURAK\Desktop\HYUNDAİ\sepet.png"></a>
+        </span>
+        <span class="ikon4">
+
+            <input type="text" class="arama-metini" placeholder="Search">
+            <a href="#" class="arama-butonu"></a>
+        </span>
+
+    </span>
+    <div class="slaytg">
+        <div class="cerceve">
+            <div class="galeri">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\bayon.jpeg">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\i20.jpg">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\ioniq5.jpg">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\santa fe.jpg">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\tucson.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="kutu10">
+        <h2>
+            <a href="https://www.hyundai.com/tr/tr/arac-satis/arac-fiyat-listesi" class="fiy-buton" target="_self">Fiyat
+                Listesi</a>
+        </h2>
+    </div>
+    <div class="kutu11">
+        <h2>
+            <a href="https://www.hyundai.com/tr/tr/arac-satis/ayin-ozel-teklifleri" class="özeltek-buton"
+                target="_self">Ayın Özel Teklifleri</a>
+        </h2>
+    </div>
+    <div class="kutu12">
+        <h2><a href="https://www.hyundai.com/tr/tr/arac-satis/test-surusu" class="test-buton" target="_self">Test
+                Sürüşü</a></h2>
+    </div>
+    <div class="kutu13">
+        <h2><a href="https://online.hyundai.com.tr/" class="onlinerezer-buton" target="_self">Online Rezervasyon</a>
+        </h2>
+    </div>
+
+    <div class="kutuX">
+        <div class="kutux1">
+            <h1>Modeller</h1>
+        </div>
+    </div>
+    <div class="küçükres1">
+        <a href="https://www.hyundai.com/tr/tr/arac-modelleri/i10" class="küçükres1" target="_self"><img
+                src="C:\Users\BURAK\Desktop\HYUNDAİ\yeni-i10-672x364.png" height="100%" width="100%">
+            <h3>i10</h3>
+        </a>
+    </div>
+    <div class="küçükres2">
+        <a href="https://www.hyundai.com/tr/tr/arac-modelleri/i20" class="küçükres2" target="_self"><img
+                src="C:\Users\BURAK\Desktop\HYUNDAİ\yeni-i20-672x364.png" height="100%" width="100%">
+            <h3>i20</h3>
+        </a>
+    </div>
+    <div class="küçükres3">
+        <a href="https://www.hyundai.com/tr/tr/arac-modelleri/i20n" class="küçükres3" target="_self"><img
+                src="C:\Users\BURAK\Desktop\HYUNDAİ\i20n-672x364.png" height="100%" width="100%">
+            <h3>i20N</h3>
+        </a>
+    </div>
+    <div class="küçükres4">
+        <a href="https://www.hyundai.com/tr/tr/arac-modelleri/yeni-elantra" class="küçükres4" target="_self"><img
+                src="C:\Users\BURAK\Desktop\HYUNDAİ\672x364.png" height="100%" width="100%">
+            <h3>ELENTRA</h3>
+        </a>
+    </div>
+    <div class="küçükres5">
+        <a href="https://www.hyundai.com/tr/tr/arac-modelleri/yeni-bayon" class="küçükres5" target="_self"><img
+                src="C:\Users\BURAK\Desktop\HYUNDAİ\yeni-bayon-672x364.png" height="100%" width="100%">
+            <h3>Yeni BAYON</h3>
+        </a>
+    </div>
+    <div class="küçükres6">
+        <a href="https://www.hyundai.com/tr/tr/arac-modelleri/yeni-kona" class="küçükres6" target="_self"><img
+                src="C:\Users\BURAK\Desktop\HYUNDAİ\yeni-kona--ice-672x364.png" height="100%" width="100%">
+            <h3>KONA</h3>
+        </a>
+    </div>
+    <div class="küçükres7">
+        <a href="https://www.hyundai.com/tr/tr/arac-modelleri/kona-hibrit" class="küçükres7" target="_self"><img
+                src="C:\Users\BURAK\Desktop\HYUNDAİ\yeni-kona-hibrit-meta-672x364.png" height="100%" width="100%">
+            <h3>KONA Hibrit</h3>
+        </a>
+    </div>
+    <div class="küçükres8">
+        <a href="https://www.hyundai.com/tr/tr/arac-modelleri/kona-ev" class="küçükres8" target="_self"><img
+                src="C:\Users\BURAK\Desktop\HYUNDAİ\kona-sx2-default-image-pc.png" height="100%" width="100%">
+            <h3>KONA Elektrik</h3>
+        </a>
+    </div>
+    <div class="kutu14">
+        <img src="C:\Users\BURAK\Desktop\HYUNDAİ\hyundaii.jpg">
+        <span>
+
+            <a href="https://www.hyundai.com/tr/tr/arac-modelleri/araba-modelleri" class="fin-model"
+                target="_self">Modeller :</a>
+
+        </span>
+        <span class="alt-model1">
+            <a href="https://www.youtube.com/watch?v=eXvR1O6xVNk" class="alt-model1" target="_self">i10</a>
+        </span>
+        <span class="alt-model2">
+            <a href="https://www.youtube.com/watch?v=6ihWFFMrsJg" class="alt-model2" target="_self">i20</a>
+        </span>
+        <span class="alt-model3">
+            <a href="https://www.youtube.com/watch?v=cGLY-t2f3EI" class="alt-model3" target="_self">ELENTRA</a>
+        </span>
+        <span class="alt-model4">
+            <a href="https://www.youtube.com/watch?v=W75x_yDYVo8" class="alt-model4" target="_self">i20N</a>
+        </span>
+        <span class="alt-model5">
+            <a href="https://www.youtube.com/watch?v=RuA4V2EYZ_o" class="alt-model5" target="_self">TUCSON</a>
+        </span>
+        <span class="alt-model6">
+            <a href="https://www.youtube.com/watch?v=QvPPevnn994" class="alt-model6" target="_self">BAYON</a>
+        </span>
+        <span class="alt-model7">
+            <a href="https://www.youtube.com/watch?v=ky7xj7AyOEg" class="alt-model7" target="_self">KONA</a>
+        </span>
+        <span class="alt-model8">
+            <a href="https://www.youtube.com/watch?v=lQh1qyXi7Ts" class="alt-model8" target="_self">SANTAFE</a>
+        </span>
+        <span class="alt-model9">
+            <a href="https://www.youtube.com/watch?v=qNObW9C_HUU" class="alt-model9" target="_self">IONIQ5</a>
+        </span>
+        <span class="alt-model10">
+            <a href="https://www.youtube.com/watch?v=fu8qud6eJyk" class="alt-model10" target="_self">IONIQ6</a>
+        </span>
+        <span class="alt-model11">
+            <a href="https://www.youtube.com/watch?v=Ry_HjP6mHh0" class="alt-model11" target="_self">STARIA</a>
+        </span>
+        <span class="facebook">
+            <a href="https://www.facebook.com/HyundaiTurkiye" class="facebook" target="_self">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\facebook.jpg">
+            </a>
+        </span>
+        <span class="youtube">
+            <a href="https://www.youtube.com/user/HyundaiTurkiye" class="youtube" target="_self">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\youtube.jpg">
+            </a>
+        </span>
+        <span class="x">
+            <a href="https://x.com/hyundaiturkiye" class="x" target="_self">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\x.jpg">
+            </a>
+        </span>
+        <span class="linkedin">
+            <a href="https://www.linkedin.com/company/hyundaiassan" class="linkedin" target="_self">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\in.jpg">
+            </a>
+        </span>
+        <span class="instagram">
+            <a href="https://www.instagram.com/HyundaiTR/" class="instagram" target="_self">
+                <img src="C:\Users\BURAK\Desktop\HYUNDAİ\instagram.jpg">
+            </a>
+        </span>
+        <div class="çizgi">
+            <p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            </p>
+            <div class="müzik">
+                <audio src="C:\Users\BURAK\Desktop\HYUNDAİ\mangakısa.mp3" controls autoplay loop></audio>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
